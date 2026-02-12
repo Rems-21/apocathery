@@ -1,0 +1,9 @@
+
+{
+  "name": "Forest Apothecary",
+  "description": "La première encyclopédie numérique de remèdes traditionnels validés, alliant sagesse ancestrale et validation scientifique.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
