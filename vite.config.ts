@@ -14,6 +14,14 @@ export default defineConfig(({ mode }) => {
           '.ngrok.io'
         ]
       },
+      build: {
+        target: 'esnext',
+        rollupOptions: {
+          input: {
+            main: './index.html'
+          }
+        }
+      },
       plugins: [react()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
